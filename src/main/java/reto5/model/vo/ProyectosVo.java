@@ -1,0 +1,38 @@
+package reto5.model.vo;
+
+//Clase que realiza el encapsulamiento de los datos de la consulta de proyectos
+public class ProyectosVo {
+    private Integer id;
+    private String constructora;
+    private Integer habitaciones;
+    private String ciudad;
+    
+    public Integer getHabitaciones() {
+        return habitaciones;
+    }
+    public void setHabitaciones(Integer habitaciones) {
+        this.habitaciones = habitaciones;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getConstructora() {
+        return constructora;
+    }
+    public void setConstructora(String constructora) {
+        this.constructora = constructora;
+    }
+
+    public String getCiudad() {
+        return ciudad;
+    }
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+    
+}
